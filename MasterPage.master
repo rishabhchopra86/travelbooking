@@ -1,5 +1,4 @@
-﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
-
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -185,50 +184,46 @@
                                 <li><a href="flightsearch.aspx">Search Flight</a>
                                 </li>
                                 
-                                <li><a href="flights.html">Book Flight</a>
+                                <li><a href="bookflight.aspx">Book Flight</a>
                                     
                                 </li>
                             </ul>
                         </li>
                         <li><a href="hotels.html">Train</a>
                             <ul>
-                                <li><a href="hotel-details.html">Pnr Status</a>
+                                <li><a href="pnr.aspx">Pnr Status</a>
                                    
                                 </li>
                                 <li><a href="trainsearch.aspx">Between Stations</a>
                                    
                                 </li>
-                                <li><a href="hotel-search.html">Seat Availability</a>
+                                <li><a href="seatavaibility.aspx">Seat Availability</a>
                                    
                                 </li>
-                                <li><a href="hotels.html">Fare Enquiry</a>
+                                <li><a href="fare.aspx">Fare Enquiry</a>
                                    
                                 </li>
-                                 <li><a href="hotels.html">Time Table</a>
+                                 <li><a href="traintime.aspx">Time Table</a>
                                    
                                 </li>
-                                <li><a href="hotels.html">Booking</a>
+                                <li><a href="booktrain.aspx">Booking</a>
                                    
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="hotels.html">Bus</a>
+                        <li><a href="#">Bus</a>
                         <ul>
-                                <li><a href="hotel-details.html">Seat Status</a>
+                                <li><a href="busseat.aspx">Seat Status</a>
                                    
                                 </li>
-                                <li><a href="hotel-payment.html">Between Stations</a>
+                                <li><a href="bussearch.aspx">Between Stations</a>
                                    
                                 </li>
-                                <li><a href="hotel-search.html">Seat Availability</a>
+                                <li><a href="busseatavaibility.aspx">Seat Availability</a>
                                    
                                 </li>
-                                <li><a href="hotels.html">Fare Enquiry</a>
-                                   
-                                </li>
-                                 <li><a href="hotels.html">Time Table</a>
-                                   
-                                </li>
+                                
+                                 
                              <li><a href="hotels.html">Booking</a>
                                    
                                 </li>

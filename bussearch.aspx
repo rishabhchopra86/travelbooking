@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="bussearch.aspx.vb" Inherits="bussearch" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="bussearch.aspx.cs" Inherits="bussearch" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -963,4 +963,5 @@
             <div class="gap"></div>
         </div>
 </asp:Content>
+
 
