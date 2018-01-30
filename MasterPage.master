@@ -11,9 +11,9 @@
     <link rel="icon"  type="image/png"  href="img/favicon.png">
 
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta name="keywords" content="Template, html, premium, themeforest" />
-    <meta name="description" content="Traveler - Premium template for travel companies">
-    <meta name="author" content="Tsoy">
+    <meta name="keywords" content="Journey,Travel,Fligt,Train.Bus,Hotel,Room" />
+    <meta name="description" content="Journey - Online Ticket Booking">
+    <meta name="author" content="Rishabh,Mukes,Prajkta,Krishna">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- GOOGLE FONTS -->
@@ -138,7 +138,19 @@
                                 </div>
                             </form>
                         </div>
-                       
+                        <div class="col-md-4">
+                            <div class="top-user-area clearfix">
+                                <ul class="top-user-area-list list list-horizontal list-border">
+                                   
+                                    <li><a href="#">Sign In</a>
+                                         <li><a href="#"><i class="fa fa-envelope-o"></i> Mail</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-phone"></i> 24x7 Customer Care  1800-1800-1800</a>
+                                    </li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,63 +160,31 @@
                         <li class="active"><a href="Default.aspx">Home</a>
                             
                         </li>
-                          <li><a href="hotels.html">Hotels</a>
+                          <li><a href="#">Hotels</a>
                             <ul>
-                                <li><a href="hotel-details.html">Details</a>
+                                <li><a href="hotelsearch.aspx">Search</a>
+                                   
+                                </li>
+                                <li><a href="hotel-payment.html">Room</a>
                                     <ul>
-                                        <li><a href="hotel-details.html">Layout 1</a>
+                                        <li><a href="hotelsearches.aspx">1 Bed</a>
                                         </li>
-                                        <li><a href="hotel-details-2.html">Layout 2</a>
+                                        <li><a href="hotelsearches.aspx">Double Bed</a>
                                         </li>
-                                        <li><a href="hotel-details-3.html">Layout 3</a>
+                                        <li><a href="hotelsearches.aspx">2 Bed</a>
                                         </li>
-                                        <li><a href="hotel-details-4.html">Layout 4</a>
+                                         <li><a href="hotelsearches.aspx">+2 Bed</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="hotel-payment.html">Payment</a>
-                                    <ul>
-                                        <li><a href="hotel-payment.html">Registered</a>
-                                        </li>
-                                        <li><a href="hotel-payment-registered-card.html">Existed Cards</a>
-                                        </li>
-                                        <li><a href="hotel-payment-unregistered.html">Unregistered</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="hotel-search.html">Search</a>
-                                    <ul>
-                                        <li><a href="hotel-search.html">Layout 1</a>
-                                        </li>
-                                        <li><a href="hotel-search-2.html">Layout 2</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="hotels.html">Results</a>
-                                    <ul>
-                                        <li><a href="hotels.html">Layout 1</a>
-                                        </li>
-                                        <li><a href="hotels-search-results-2.html">Layout 2</a>
-                                        </li>
-                                        <li><a href="hotels-search-results-3.html">Layout 3</a>
-                                        </li>
-                                        <li><a href="hotels-search-results-4.html">Layout 4</a>
-                                        </li>
-                                        <li><a href="hotel-search-results-5.html">Layout 5</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </li>
-                         <li><a href="flights.html">Flights</a>
+                         <li><a href="#">Flights</a>
                             <ul>
-                                <li><a href="flight-payment.html">Search Flight</a>
-                                   
-                                   
+                                <li><a href="flightsearch.aspx">Search Flight</a>
                                 </li>
-                                <li><a href="flight-search.html">Time Table</a>
-                                   
-                                </li>
+                                
                                 <li><a href="flights.html">Book Flight</a>
                                     
                                 </li>
@@ -215,7 +195,7 @@
                                 <li><a href="hotel-details.html">Pnr Status</a>
                                    
                                 </li>
-                                <li><a href="hotel-payment.html">Between Stations</a>
+                                <li><a href="trainsearch.aspx">Between Stations</a>
                                    
                                 </li>
                                 <li><a href="hotel-search.html">Seat Availability</a>
@@ -256,6 +236,26 @@
                         </li>
                          <li ><a href="Default.aspx">Packages</a>
                                 <ul>
+                                     <li><a href="hotel-details.html">Season</a>
+                                    <ul>
+                                        <li><a href="hotel-details.html">Summer</a>
+                                        </li>
+                                        <li><a href="hotel-details-2.html">Winter</a>
+                                        </li>
+                                        <li><a href="hotel-details-3.html">Monsoon</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </li>
+                                    <li><a href="hotel-details.html">Vacations</a>
+                                    <ul>
+                                        <li><a href="hotel-details.html">Diwali</a>
+                                        </li>
+                                        <li><a href="hotel-details-2.html">Christmas</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </li>
                                 <li><a href="hotel-details.html">Night</a>
                                     <ul>
                                         <li><a href="hotel-details.html">1 Night</a>
@@ -291,11 +291,17 @@
                           <li ><a href="Default.aspx">Feature</a>
                             
                         </li>
-                         <li ><a href="Default.aspx">About</a>
+                         <li ><a href="About.aspx">About</a>
                             
                         </li>
-                         <li ><a href="Default.aspx">Contact</a>
-                            
+                         <li ><a href="#">Support</a>
+                             <ul>
+                                       <li><a href="Faq.aspx">Faq</a>
+                                        </li>
+                                        <li><a href="Contact.aspx">Contact Us</a>
+                                        </li>
+                                        
+                                    </ul>
                         </li>
                        
                       
@@ -322,7 +328,7 @@
                         <a class="logo" href="index-2.html">
                             <img src="img/logo-invert.png" alt="Image Alternative text" title="Image Title" />
                         </a>
-                        <p class="mb20">Booking, reviews and advices on hotels, resorts, flights, vacation rentals, travel packages, and lots more!</p>
+                        <p class="mb20">Booking, reviews and advices on hotels, resorts, flights,train,bus, vacation rentals, travel packages, and lots more!</p>
                         <ul class="list list-horizontal list-space">
                             <li>
                                 <a class="fa fa-facebook box-icon-normal round animate-icon-bottom-to-top" href="#"></a>
@@ -363,10 +369,10 @@
                             <li ><a href="Default.aspx">Feature</a>
                             
                         </li>
-                         <li ><a href="Default.aspx">About</a>
+                         <li ><a href="About.aspx">About</a>
                             
                         </li>
-                         <li ><a href="Default.aspx">Contact</a>
+                         <li ><a href="Contact.aspx">Contact</a>
                             
                         </li>
                         </ul>
