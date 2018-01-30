@@ -156,7 +156,7 @@
             <div class="container">
                 <div class="nav">
                     <ul class="slimmenu" id="slimmenu">
-                        <li class="active"><a href="Default.aspx">Home</a>
+                        <li ><a href="Default.aspx">Home</a>
                             
                         </li>
                           <li><a href="#">Hotels</a>
@@ -310,6 +310,7 @@
             </div>
         </header>
     <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         

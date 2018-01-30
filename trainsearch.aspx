@@ -4,25 +4,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
       <div class="container">
-            <ul class="breadcrumb">
-                <li><a href="index-2.html">Home</a>
-                </li>
-                <li><a href="#">United States</a>
-                </li>
-                <li><a href="#">New York (NY)</a>
-                </li>
-                <li><a href="#">New York City</a>
-                </li>
-                <li class="active">New York City Flights</li>
-            </ul>
+           
             <div class="mfp-with-anim mfp-hide mfp-dialog mfp-search-dialog" id="search-dialog">
-                <h3>Search for Flight</h3>
-                <form>
+                <h3>Search for Train</h3>
+               
                     <div class="tabbable">
                         <ul class="nav nav-pills nav-sm nav-no-br mb10" id="flightChooseTab">
-                            <li class="active"><a href="#flight-search-1" data-toggle="tab">Round Trip</a>
+                            
+                            <li  class="active"><a href="#flight-search-2" data-toggle="tab">One Way</a>
                             </li>
-                            <li><a href="#flight-search-2" data-toggle="tab">One Way</a>
+                            <li><a href="#flight-search-1" data-toggle="tab">Round Trip</a>
                             </li>
                         </ul>
                         <div class="tab-content">
@@ -154,13 +145,13 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary btn-lg" type="submit">Search for Flights</button>
-                </form>
+                    <asp:Button CssClass="btn btn-primary btn-lg" ID="Button1" runat="server" Text="Search for Train" />
+              
             </div>
             <h3 class="booking-title">12 Flights from London to New York on Mar 22 for 1 adult <small><a class="popup-text" href="#search-dialog" data-effect="mfp-zoom-out">Change search</a></small></h3>
             <div class="row">
-                <div class="col-md-3">
-                    <form class="booking-item-dates-change mb30">
+                <div class="col-md-3 ">
+                    <div class="booking-item-dates-change mb30">
                         <div class="form-group form-group-icon-left"><i class="fa fa-map-marker input-icon input-icon-hightlight"></i>
                             <label>From</label>
                             <input class="typeahead form-control" value="Great Britan, London" placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
@@ -204,8 +195,8 @@
                                 <option>14</option>
                             </select>
                         </div>
-                        <input class="btn btn-primary" type="submit" value="Upadte Search" />
-                    </form>
+                        <asp:Button ID="Button2" runat="server" Text="Search" CssClass="btn btn-primary" OnClick="Button2_Click" />
+                  </div>
                     <aside class="booking-filters text-white">
                         <h3>Filter By:</h3>
                         <ul class="list booking-filters-list">
@@ -316,7 +307,8 @@
                             </li>
                         </ul>
                     </div>
-                    <ul class="booking-list">
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server"><ContentTemplate>
+                    <ul class="booking-list" id="display" runat="server">
                         <li>
                             <div class="booking-item-container">
                                 <div class="booking-item">
@@ -956,6 +948,12 @@
                             </div>
                         </li>
                     </ul>
+
+                        </ContentTemplate>
+                         <Triggers>
+     <asp:AsyncPostBackTrigger ControlID="Button2" EventName="Click"/> 
+    </Triggers>
+                    </asp:UpdatePanel>
                     <p class="text-right">Not what you're looking for? <a class="popup-text" href="#search-dialog" data-effect="mfp-zoom-out">Try your search again</a>
                     </p>
                 </div>
