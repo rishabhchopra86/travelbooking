@@ -20,9 +20,9 @@
                                             </li>
                                             <li><a href="#tab-2" data-toggle="tab"><i class="fa fa-plane"></i> <span >Flights</span></a>
                                             </li>
-                                            <li><a href="#tab-3" data-toggle="tab"><i class="fa fa-home"></i> <span >Rentals</span></a>
+                                            <li><a href="#tab-3" data-toggle="tab"><i class="fa fa-train"></i> <span >Train</span></a>
                                             </li>
-                                            <li><a href="#tab-4" data-toggle="tab"><i class="fa fa-car"></i> <span >Cars</span></a>
+                                            <li><a href="#tab-4" data-toggle="tab"><i class="fa fa-bus"></i> <span >Bus</span></a>
                                             </li>
                                             <li><a href="#tab-5" data-toggle="tab"><i class="fa fa-bolt"></i> <span >Activities</span></a>
                                             </li>

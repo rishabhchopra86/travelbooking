@@ -8,7 +8,7 @@
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
     <title>Journery</title>
-
+    <link rel="icon"  type="image/png"  href="img/favicon.png">
 
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="Template, html, premium, themeforest" />
@@ -22,6 +22,7 @@
     <!-- /GOOGLE FONTS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mystyles.css">
@@ -206,25 +207,8 @@
             <div class="container">
                 <div class="nav">
                     <ul class="slimmenu" id="slimmenu">
-                        <li class="active"><a href="index-2.html">Home</a>
-                            <ul>
-                                <li class="active"><a href="index-2.html">Default</a>
-                                </li>
-                                <li><a href="index-1.html">Layout 1</a>
-                                </li>
-                                <li><a href="index-3.html">Layout 2</a>
-                                </li>
-                                <li><a href="index-4.html">Layout 3</a>
-                                </li>
-                                <li><a href="index-5.html">Layout 4</a>
-                                </li>
-                                <li><a href="index-6.html">Layout 5</a>
-                                </li>
-                                <li><a href="index-7.html">Layout 6</a>
-                                </li>
-                                <li><a href="index-8.html">Layout 7</a>
-                                </li>
-                            </ul>
+                        <li class="active"><a href="Default.aspx">Home</a>
+                            
                         </li>
                         <li><a href="success-payment.html">Pages</a>
                             <ul>
