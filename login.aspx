@@ -6,14 +6,15 @@
 
 <!-- Mirrored from remtsoy.com/tf_templates/traveler/demo_v1_7/login-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jan 2018 06:17:43 GMT -->
 <head>
-    <title>Traveler - Login register</title>
-
+    <title>Journey</title>
+    <link rel="icon"  type="image/png"  href="img/favicon.png">
 
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta name="keywords" content="Template, html, premium, themeforest" />
-    <meta name="description" content="Traveler - Premium template for travel companies">
-    <meta name="author" content="Tsoy">
+    <meta name="keywords" content="Journey,Travel,Fligt,Train.Bus,Hotel,Room" />
+    <meta name="description" content="Journey - Online Ticket Booking">
+    <meta name="author" content="Rishabh,Mukes,Prajkta,Krishna">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
     <!-- GOOGLE FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
@@ -129,7 +130,7 @@
                 <div class="bg-img" style="background-image:url(img/people_on_the_beach_1280x852.jpg);"></div>
                 <div class="bg-holder-content full text-white">
                     <a class="logo-holder" href="index-2.html">
-                        <img src="img/logo-white.png" alt="Image Alternative text" title="Image Title" />
+                        <img src="img/logo-invert.png" alt="Image Alternative text" title="Image Title" />
                     </a>
                     <div class="full-center">
                         <div class="container">
@@ -154,7 +155,7 @@
                                             <label>Password</label>
                                             <input class="form-control" type="password" placeholder="my secret password" />
                                         </div>
-                                     <asp:Button ID="Button2" runat="server" Text="Sign in" CssClass="btn btn-primary" />
+                                     <asp:Button ID="Button2" runat="server" Text="Sign in" CssClass="btn btn-primary" OnClick="Button2_Click" />
                                    
                                 </div>
                                 <div class="col-md-4">

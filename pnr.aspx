@@ -15,7 +15,7 @@
 
 
                         <div class="input-group">
-                            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="PNR Number" ></asp:TextBox>
+                            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Seat Number" ></asp:TextBox>
                               <span class="input-group-btn">
                             <asp:Button ID="Button1" runat="server" Text="Get Status" CssClass="btn btn-primary"/>
                                   </span>

@@ -11,7 +11,15 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
         //userlogin.InnerText = "Sign Out";
         //userlogin.HRef = "Logout.aspx";
-        user.Visible = false;
-     
+       // user.Visible = false;
+        if (!string.IsNullOrEmpty(Session["id"] as string))
+        {
+            userlogin.InnerText = "Sign Out";
+            userlogin.HRef = "Logout.aspx";
+        }
+        else
+        {
+            user.Visible = false;
+        }
     }
 }

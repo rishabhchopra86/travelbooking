@@ -59,7 +59,7 @@
     </script>
    <!-- /FACEBOOK WIDGET -->
     <div class="global-wrap">
-        <div class="demo_changer" id="demo_changer">
+       <!-- <div class="demo_changer" id="demo_changer">
             <div class="demo-icon fa fa-sliders"></div>
             <div class="form_holder">
                 <div class="line"></div>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="line"></div>
             </div>
-        </div>
+        </div>-->
         
         <header id="main-header">
             <div class="header-top">
@@ -144,9 +144,9 @@
                                 <ul class="top-user-area-list list list-horizontal list-border">
                                    
                                     <li><a href="login.aspx" id="userlogin" runat="server">Sign In</a>
-                                         <li><a href="#"><i class="fa fa-envelope-o"></i> Mail</a>
+                                         <li><a class="popup-text" href="#mail-dialog" data-effect="mfp-zoom-out"><i class="fa fa-envelope-o"></i> Mail</a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-phone"></i> 24x7 Customer Care  1800-1800-1800</a>
+                                    <li><a href="tel:1800-1800-1800"><i class="fa fa-phone"></i> 24x7 Customer Care  1800-1800-1800</a>
                                     </li>
                                   
                                 </ul>
@@ -222,51 +222,51 @@
                        
                          <li ><a href="Default.aspx">Packages</a>
                                 <ul>
-                                     <li><a href="hotel-details.html">Season</a>
+                                     <li><a href="#">Season</a>
                                     <ul>
-                                        <li><a href="hotel-details.html">Summer</a>
+                                        <li><a href="packages.aspx?q=summer">Summer</a>
                                         </li>
-                                        <li><a href="hotel-details-2.html">Winter</a>
+                                        <li><a href="packages.aspx?q=Winter">Winter</a>
                                         </li>
-                                        <li><a href="hotel-details-3.html">Monsoon</a>
+                                        <li><a href="packages.aspx?q=Monsoon">Monsoon</a>
                                         </li>
                                        
                                     </ul>
                                 </li>
-                                    <li><a href="hotel-details.html">Vacations</a>
+                                    <li><a href="#">Vacations</a>
                                     <ul>
-                                        <li><a href="hotel-details.html">Diwali</a>
+                                        <li><a href="packages.aspx?q=Diwali">Diwali</a>
                                         </li>
-                                        <li><a href="hotel-details-2.html">Christmas</a>
+                                        <li><a href="packages.aspx?q=Christmas">Christmas</a>
                                         </li>
                                        
                                     </ul>
                                 </li>
-                                <li><a href="hotel-details.html">Night</a>
+                                <li><a href="packages.aspx?q=summer">Night</a>
                                     <ul>
-                                        <li><a href="hotel-details.html">1 Night</a>
+                                        <li><a href="packages.aspx?q=1 Night">1 Night</a>
                                         </li>
-                                        <li><a href="hotel-details-2.html">2 Nights</a>
+                                        <li><a href="packages.aspx?q=2 Night">2 Nights</a>
                                         </li>
-                                        <li><a href="hotel-details-3.html">3 Nights</a>
+                                        <li><a href="packages.aspx?q=3 Night">3 Nights</a>
                                         </li>
-                                        <li><a href="hotel-details-4.html">4 Nights</a>
+                                        <li><a href="packages.aspx?q=4 Night">4 Nights</a>
                                         </li>
-                                        <li><a href="hotel-details-4.html">+4 Nights</a>
+                                        <li><a href="packages.aspx?q=+4 Night">+4 Nights</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li><a href="hotel-payment.html">Day</a>
                                     <ul>
-                                       <li><a href="hotel-details.html">1 Day</a>
+                                       <li><a href="packages.aspx?q=1 Day">1 Day</a>
                                         </li>
-                                        <li><a href="hotel-details-2.html">2 Days</a>
+                                        <li><a href="packages.aspx?q=2 Day">2 Days</a>
                                         </li>
-                                        <li><a href="hotel-details-3.html">3 Days</a>
+                                        <li><a href="packages.aspx?q=3 Day">3 Days</a>
                                         </li>
-                                        <li><a href="hotel-details-4.html">4 Days</a>
+                                        <li><a href="packages.aspx?q=4 Day">4 Days</a>
                                         </li>
-                                        <li><a href="hotel-details-4.html">+4 Days</a>
+                                        <li><a href="packages.aspx?q=+4 Day">+4 Days</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -274,9 +274,7 @@
                               
                             </ul>
                         </li>
-                          <li ><a href="Default.aspx">Feature</a>
-                            
-                        </li>
+                         
                          <li ><a href="About.aspx">About</a>
                             
                         </li>
@@ -292,19 +290,19 @@
                        
                          <li id="user" runat="server"><a href="#" ><span class="fa fa-gear"></span> Setting</a>
                         <ul>
-                                <li><a href="busseat.aspx"><span class="fa fa-balance-scale"></span> Overvirew</a>
+                                <li><a href="overview.aspx"><span class="fa fa-balance-scale"></span> Overvirew</a>
                                    
                                 </li>
-                                <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-gears"></span> Settings</a>
+                                <li><a href="setting.aspx"><span class="fa fa-gears"></span> Settings</a>
                                    
                                 </li>
-                            <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-files-o "></span> Booking History</a>
+                            <li><a href="history.aspx"><span class="fa fa-files-o "></span> Booking History</a>
                                    
                                 </li>
-                            <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-user"></span> My Profile</a>
+                            <li><a href="profile.aspx"><span class="fa fa-user"></span> My Profile</a>
                                    
                                 </li>
-                            <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-sign-out"></span> Logout</a>
+                            <li><a href="logout.aspx"><span class="fa fa-sign-out"></span> Logout</a>
                                    
                                 </li>
                               
@@ -321,6 +319,35 @@
             </div>
         </header>
     <form id="form1" runat="server">
+         <div class="mfp-with-anim mfp-hide mfp-dialog mfp-search-dialog" id="mail-dialog">
+                <h3 class="text-center">Mail Us</h3>
+            
+                    <div class="tabbable">
+                        
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="flight-search-1">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon input-icon-highlight"></i>
+                                            <label>Email</label>
+                                            <input class="typeahead form-control" placeholder="Email Address" type="email" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon input-icon-highlight"></i>
+                                            <label>Message</label>
+                                          <textarea id="TextArea1" cols="20" rows="5" class="form-control" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                      
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-lg" type="submit">Search for Flights</button>
+              
+            </div>
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">

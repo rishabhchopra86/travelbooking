@@ -148,17 +148,17 @@
                     <asp:Button CssClass="btn btn-primary btn-lg" ID="Button1" runat="server" Text="Search for Train" />
               
             </div>
-            <h3 class="booking-title">12 Flights from London to New York on Mar 22 for 1 adult <small><a class="popup-text" href="#search-dialog" data-effect="mfp-zoom-out">Change search</a></small></h3>
+            <h3 class="booking-title">Train Search <small><a class="popup-text" href="#search-dialog" data-effect="mfp-zoom-out">Change search</a></small></h3>
             <div class="row">
                 <div class="col-md-3 ">
                     <div class="booking-item-dates-change mb30">
                         <div class="form-group form-group-icon-left"><i class="fa fa-map-marker input-icon input-icon-hightlight"></i>
                             <label>From</label>
-                            <input class="typeahead form-control" value="Great Britan, London" placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
+                            <input class="typeahead form-control"  placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
                         </div>
                         <div class="form-group form-group-icon-left"><i class="fa fa-map-marker input-icon input-icon-hightlight"></i>
                             <label>To</label>
-                            <input class="typeahead form-control" value="United States, New York" placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
+                            <input class="typeahead form-control"  placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
                         </div>
                         <div class="form-group form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-hightlight"></i>
                             <label>Departing</label>

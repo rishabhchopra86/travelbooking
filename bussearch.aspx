@@ -16,7 +16,7 @@
                 <li class="active">New York City Flights</li>
             </ul>
             <div class="mfp-with-anim mfp-hide mfp-dialog mfp-search-dialog" id="search-dialog">
-                <h3>Search for Flight</h3>
+                <h3>Search for Bus</h3>
                 <form>
                     <div class="tabbable">
                         <ul class="nav nav-pills nav-sm nav-no-br mb10" id="flightChooseTab">
@@ -157,17 +157,17 @@
                     <button class="btn btn-primary btn-lg" type="submit">Search for Flights</button>
                 </form>
             </div>
-            <h3 class="booking-title">12 Flights from London to New York on Mar 22 for 1 adult <small><a class="popup-text" href="#search-dialog" data-effect="mfp-zoom-out">Change search</a></small></h3>
+            <h3 class="booking-title">Bus Search <small><a class="popup-text" href="#search-dialog" data-effect="mfp-zoom-out">Change search</a></small></h3>
             <div class="row">
                 <div class="col-md-3">
                     <form class="booking-item-dates-change mb30">
                         <div class="form-group form-group-icon-left"><i class="fa fa-map-marker input-icon input-icon-hightlight"></i>
                             <label>From</label>
-                            <input class="typeahead form-control" value="Great Britan, London" placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
+                            <input class="typeahead form-control"  placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
                         </div>
                         <div class="form-group form-group-icon-left"><i class="fa fa-map-marker input-icon input-icon-hightlight"></i>
                             <label>To</label>
-                            <input class="typeahead form-control" value="United States, New York" placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
+                            <input class="typeahead form-control"  placeholder="City, Hotel Name or U.S. Zip Code" type="text" />
                         </div>
                         <div class="form-group form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-hightlight"></i>
                             <label>Departing</label>
