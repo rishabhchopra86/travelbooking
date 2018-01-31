@@ -44,17 +44,18 @@
     <link rel="alternate stylesheet" type="text/css" href="css/schemes/denim.css" title="denim" media="all" />
     <link rel="alternate stylesheet" type="text/css" href="css/schemes/scarlet.css" title="scarlet" media="all" />
 </head>
-<body>
+<body class="full">
+
     <div id="fb-root"></div>
     <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "../../../../connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+        //(function(d, s, id) {
+        //    var js, fjs = d.getElementsByTagName(s)[0];
+        //    if (d.getElementById(id)) return;
+        //    js = d.createElement(s);
+        //    js.id = id;
+        //    js.src = "../../../../connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        //    fjs.parentNode.insertBefore(js, fjs);
+        //}(document, 'script', 'facebook-jssdk'));
     </script>
    <!-- /FACEBOOK WIDGET -->
     <div class="global-wrap">
@@ -120,6 +121,7 @@
                 <div class="line"></div>
             </div>
         </div>
+        
         <header id="main-header">
             <div class="header-top">
                 <div class="container">
@@ -141,7 +143,7 @@
                             <div class="top-user-area clearfix">
                                 <ul class="top-user-area-list list list-horizontal list-border">
                                    
-                                    <li><a href="#">Sign In</a>
+                                    <li><a href="login.aspx" id="userlogin" runat="server">Sign In</a>
                                          <li><a href="#"><i class="fa fa-envelope-o"></i> Mail</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-phone"></i> 24x7 Customer Care  1800-1800-1800</a>
@@ -183,10 +185,6 @@
                             <ul>
                                 <li><a href="flightsearch.aspx">Search Flight</a>
                                 </li>
-                                
-                                <li><a href="bookflight.aspx">Book Flight</a>
-                                    
-                                </li>
                             </ul>
                         </li>
                         <li><a href="hotels.html">Train</a>
@@ -206,9 +204,7 @@
                                  <li><a href="traintime.aspx">Time Table</a>
                                    
                                 </li>
-                                <li><a href="booktrain.aspx">Booking</a>
-                                   
-                                </li>
+                             
                             </ul>
                         </li>
                         <li><a href="#">Bus</a>
@@ -219,16 +215,11 @@
                                 <li><a href="bussearch.aspx">Between Stations</a>
                                    
                                 </li>
-                                <li><a href="busseatavaibility.aspx">Seat Availability</a>
-                                   
-                                </li>
-                                
-                                 
-                             <li><a href="hotels.html">Booking</a>
-                                   
-                                </li>
+                              
+                             
                             </ul>
                         </li>
+                       
                          <li ><a href="Default.aspx">Packages</a>
                                 <ul>
                                      <li><a href="hotel-details.html">Season</a>
@@ -299,7 +290,27 @@
                                     </ul>
                         </li>
                        
-                      
+                         <li id="user" runat="server"><a href="#" ><span class="fa fa-gear"></span> Setting</a>
+                        <ul>
+                                <li><a href="busseat.aspx"><span class="fa fa-balance-scale"></span> Overvirew</a>
+                                   
+                                </li>
+                                <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-gears"></span> Settings</a>
+                                   
+                                </li>
+                            <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-files-o "></span> Booking History</a>
+                                   
+                                </li>
+                            <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-user"></span> My Profile</a>
+                                   
+                                </li>
+                            <li><a href="bussearch.aspx"><a href="busseat.aspx"><span class="fa fa-sign-out"></span> Logout</a>
+                                   
+                                </li>
+                              
+                             
+                            </ul>
+                        </li>
                       
                        
                        
@@ -376,25 +387,25 @@
                      <div class="col-md-2">
                         
                         <ul class="list list-footer">
-                            <li ><a href="Default.aspx">Search Hotels</a>
+                            <li ><a href="hotelsearch.aspx">Search Hotels</a>
                             
                         </li>
-                            <li ><a href="Default.aspx">Search Flight</a>
+                            <li ><a href="flightsearch.aspx">Search Flight</a>
                             
                         </li>
-                            <li ><a href="Default.aspx">Search Train</a>
+                            <li ><a href="trainsearch.aspx">Search Train</a>
                             
                         </li>
-                            <li ><a href="Default.aspx">Search Bus</a>
+                            <li ><a href="bussearch.aspx">Search Bus</a>
                             
                         </li>
-                              <li ><a href="Default.aspx">Search Packages</a>
+                              <li ><a href="package.aspx">Search Packages</a>
                             
                         </li>
                             
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" id="fotdiv" runat="server">
                         <h4>Have Questions?</h4>
                         <h4 class="text-color">+91-9998889997</h4>
                         <h4><a href="#" class="text-color">journey.com</a></h4>

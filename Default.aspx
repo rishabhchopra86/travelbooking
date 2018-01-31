@@ -418,23 +418,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="loc-info text-right hidden-xs hidden-sm">
-                                    <h3 class="loc-info-title"><img src="img/flags/32/fr.png" alt="Image Alternative text" title="Image Title" />Paris</h3>
-                                    <p class="loc-info-weather"><span class="loc-info-weather-num">+31</span><i class="im im-rain loc-info-weather-icon"></i>
-                                    </p>
-                                    <ul class="loc-info-list">
-                                        <li><a href="#"><i class="fa fa-building-o"></i> 277 Hotels from $36/night</a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-home"></i> 130 Rentals from $44/night</a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-car"></i> 294 Car Offers from $45/day</a>
-                                        </li>
-                                        <li><a href="#"><i class="fa fa-bolt"></i> 200 Activities this Week</a>
-                                        </li>
-                                    </ul><a class="btn btn-white btn-ghost mt10" href="#"><i class="fa fa-angle-right"></i> Explore</a>
-                                </div>
-                            </div>
+                     
                         </div>
                     </div>
                 </div>
